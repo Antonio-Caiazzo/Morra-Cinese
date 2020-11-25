@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans&display=swap');
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    background-color: #412F4D;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#title{
+    color: #C74337;
+    font-family: 'Bungee', cursive;
+    font-size: 60px;
+}
+h3{
+    font-size: 24px;
+}
+h1,h3{
+    margin: 10px;
+    color: #923324;
+}
+#computer,#vittgiocatore,#vittcomputer,#vincitore{
+    color: #EA8D7D;
+}
+#contenitore{
+    display: grid;
+    place-items: center;
+}
+button  {
+    width: 200px;
+    height: 300px;
+    background-color: #FF0000;
+    background-image: url('img/carta.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+#sasso {
+    width: 200px;
+    height: 300px;
+    background-color: #FF0000;
+    background-image: url('img/sasso.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#forbici {
+    width: 200px;
+    height: 300px;
+    background-color: #FF0000;
+    background-image: url('img/forbici.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
