@@ -10,13 +10,19 @@
 <body>
     <div id="contenitore">
             <h1 id="title">MORRA CINESE</h1>
-            <h1>Il computer ha scelto: <span id="computer"></span></h1>
-        <div>
-                <button onclick="sceltaUtente('carta')">Carta</button>
-                <button id="sasso" onclick="sceltaUtente('sasso')">Sasso</button>
-                <button id="forbici" onclick="sceltaUtente('forbici')">Forbici</button>
+            <h1 id="teup">Il computer ha scelto: <span id="computer"></span></h1>
+            <div>
+                <button onclick="sceltaUtente('carta')">
+                <img src="img/carta.svg" alt="">
+            </button>
+                <button id="sasso" onclick="sceltaUtente('sasso')">
+                    <img src="img/sasso.svg" alt=""></button>
+                </button>
+                <button id="forbici" onclick="sceltaUtente('forbici')">
+                    <img src="img/forbici.svg" alt=""></button>
+                </button>
             </div>
-        <h3>Vincitore: <span id="vincitore"></span></h3>
+        <h3 id="bold"><bold>Vincitore: <span id="vincitore"></span></bold></h3>
         <h3>Partite vinte dal giocatore: <span id="vittgiocatore"></span></h3>
         <h3>Partite vinte dal computer: <span id="vittcomputer"></span></h3>
     </div>
