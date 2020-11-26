@@ -59,12 +59,10 @@ body{
 }
 
 /* Tablet */
-@media (min-width: 769px) and (max-width: 1199px) { 
-       
-}
+
 
 /* PC */
-@media (min-width: 1200px) { 
+@media (min-width: 720px){ 
     #teup{
         padding-bottom: 30px;
     }
