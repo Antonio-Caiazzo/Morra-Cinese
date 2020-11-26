@@ -22,7 +22,7 @@ body{
 /* Smartphone */
 @media (max-width: 576px) { 
     #title{
-        font-size: 36px;
+        font-size: 34px;
         margin: 0px;
     }
     h1{
@@ -35,7 +35,7 @@ body{
         padding-top: 20px;
     }
     #bold{
-        font-size: 32px;
+        font-size: 28px;
         padding-top: 20px;
     }
     h1,h3{
