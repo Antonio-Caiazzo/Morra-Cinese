@@ -3,7 +3,7 @@
     "background_color": "#412F4D",
     "display": "standalone",
     "scope": "/Morra-Cinese/",
-    "start_url": "/",
+    "start_url": "https://antonio-caiazzo.github.io/Morra-Cinese/",
     "app_name": "Morra Cinese",
     "short_name": "MorraCinese",
     "icons": [
